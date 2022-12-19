@@ -1,0 +1,9 @@
+cd ~
+mkdir MVSDK
+cd MVSDK
+download from https://www.mindvision.com.cn/rjxz/list_71.aspx?lcid=88 or
+wget https://www.mindvision.com.cn/uploadfiles/SDK/linuxSDK_V2.1.0.36.tar.gz
+tar -zxvf linuxSDK_V2.1.0.36.tar.gz
+sudo ./install.sh
+sudo cp MVSDK/include/* /usr/include
+sudo cp MVSDK/lib/arm64/libMVSDK.so /lib
